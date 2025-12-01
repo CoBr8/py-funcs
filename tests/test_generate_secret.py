@@ -1,6 +1,6 @@
 import pytest
 import string
-from generate_secret import generate_secret
+from ..generate_secret import generate_secret
 
 def test_default_length():
     """Test that the default length is 32."""
